@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fuel.FuelFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+
+    >
+
+    <EditText
+        android:id="@+id/on_the_meter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/on_the_meter"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/liters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/liters"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/cost_per_liter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cost_per_liter"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        />
+
+</LinearLayout>

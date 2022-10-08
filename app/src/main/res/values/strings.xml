@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Combustion</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_fuel">Fuel</string>
+    <string name="combustion">Combustion</string>
+    <string name="distance">Distance</string>
+    <string name="fuel">Fuel</string>
+    <string name="cost">Cost</string>
+    <string name="cost_per_kilometer">Cost / km</string>
+    <string name="on_the_meter">on the meter</string>
+    <string name="liters" >liters</string>
+    <string name="cost_per_liter">cost per liter</string>
+    <string name="send">Send</string>
+</resources>
