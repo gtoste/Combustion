@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false" >
+        <shape android:shape="rectangle">
+            <solid android:color="@color/md_theme_dark_surface"/>
+            <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+            <stroke android:width="2dp" android:color="@color/md_theme_dark_onSurface"/>
+        </shape>
+    </item>
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/md_theme_dark_inversePrimary"/>
+            <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+            <stroke android:width="2dp" android:color="@color/md_theme_dark_onSurface"/>
+        </shape>
+    </item>
+    <item
+        android:state_focused="true"
+        android:state_enabled="true">
+
+        <shape android:shape="rectangle">
+            <solid android:color="@color/md_theme_dark_onPrimary"/>
+            <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+            <stroke android:width="2dp" android:color="@color/md_theme_dark_onSurface"/>
+        </shape>
+    </item>
+    <item
+        android:state_enabled="true"
+        >
+        <shape android:shape="rectangle">
+            <solid android:color="@color/md_theme_dark_primaryContainer"/>
+            <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+            <stroke android:width="2dp" android:color="@color/md_theme_dark_onSurface"/>
+        </shape>
+    </item>
+</selector>

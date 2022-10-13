@@ -5,50 +5,75 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.fuel.FuelFragment"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:padding="20dp"
-
+    android:background="@color/md_theme_dark_background"
     >
 
-    <EditText
-        android:id="@+id/on_the_meter"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/on_the_meter"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:padding="10dp"
-        android:textAlignment="center"
-        android:autofillHints="" />
+        android:orientation="vertical"
+        android:background="@drawable/container"
+        android:padding="30dp"
+        >
 
-    <EditText
-        android:id="@+id/liters"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/liters"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        android:padding="10dp"
-        android:textAlignment="center"
-        android:autofillHints="" />
+        <Spinner
+            android:id="@+id/cars"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/Theme.Combustion.EditText.Style"
+            android:layout_marginBottom="10dp"
+            />
 
-    <EditText
-        android:id="@+id/cost_per_liter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/cost_per_liter"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        android:padding="10dp"
-        android:textAlignment="center"
-        android:autofillHints="" />
+        <EditText
+            android:id="@+id/on_the_meter"
+            style="@style/Theme.Combustion.EditText.Style"
+            android:drawableStart="@drawable/input_icon_combustion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/on_the_meter"
+            android:inputType="number" />
 
-    <Button
-        android:id="@+id/send"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/send"
-        />
+        <EditText
+            android:id="@+id/liters"
+            style="@style/Theme.Combustion.EditText.Style"
+            android:drawableStart="@drawable/input_icon_fuel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/liters"
+            android:inputType="numberDecimal"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/cost_per_liter"
+            style="@style/Theme.Combustion.EditText.Style"
+            android:drawableStart="@drawable/input_icon_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cost_per_liter"
+            android:inputType="numberDecimal"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/station_edit_text"
+            style="@style/Theme.Combustion.EditText.Style"
+            android:drawableStart="@drawable/input_icon_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/location"
+            android:inputType="text"
+            android:autofillHints="" />
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            />
+    </LinearLayout>
+
 
 </LinearLayout>

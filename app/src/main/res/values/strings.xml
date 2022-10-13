@@ -7,9 +7,11 @@
     <string name="distance">Distance</string>
     <string name="fuel">Fuel</string>
     <string name="cost">Cost</string>
-    <string name="cost_per_kilometer">Cost / km</string>
-    <string name="on_the_meter">on the meter</string>
-    <string name="liters" >liters</string>
-    <string name="cost_per_liter">cost per liter</string>
+    <string name="cost_per_kilometer">zł/km</string>
+    <string name="on_the_meter">odometer</string>
+    <string name="liters" >fuel bought</string>
+    <string name="cost_per_liter">zł/l</string>
     <string name="send">Send</string>
+    <string name="station">station</string>
+    <string name="location">location</string>
 </resources>
